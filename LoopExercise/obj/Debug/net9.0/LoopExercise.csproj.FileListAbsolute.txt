@@ -1,0 +1,14 @@
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/bin/Debug/net9.0/LoopExercise
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/bin/Debug/net9.0/LoopExercise.deps.json
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/bin/Debug/net9.0/LoopExercise.runtimeconfig.json
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/bin/Debug/net9.0/LoopExercise.dll
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/bin/Debug/net9.0/LoopExercise.pdb
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/obj/Debug/net9.0/LoopExercise.GeneratedMSBuildEditorConfig.editorconfig
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/obj/Debug/net9.0/LoopExercise.AssemblyInfoInputs.cache
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/obj/Debug/net9.0/LoopExercise.AssemblyInfo.cs
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/obj/Debug/net9.0/LoopExercise.csproj.CoreCompileInputs.cache
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/obj/Debug/net9.0/LoopExercise.dll
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/obj/Debug/net9.0/refint/LoopExercise.dll
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/obj/Debug/net9.0/LoopExercise.pdb
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/obj/Debug/net9.0/LoopExercise.genruntimeconfig.cache
+/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/LoopExercise/obj/Debug/net9.0/ref/LoopExercise.dll
