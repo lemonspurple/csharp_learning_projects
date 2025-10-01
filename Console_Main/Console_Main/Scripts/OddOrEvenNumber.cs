@@ -9,10 +9,8 @@ public class OddOrEvenNumber{
             {
                 System.Console.WriteLine(testedVariable);
             }
-            else
-            {
+
                 continue;
-            }
 
         }
     }
