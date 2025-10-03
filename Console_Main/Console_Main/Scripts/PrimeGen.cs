@@ -27,7 +27,7 @@ public class PrimeGen
                         prime++;
                         divider = 2;
                         counter++;
-                        if (counter % row == 0)   // inserts break, if 10 numbers are in a row
+                        if (counter % row == 0)   // inserts linebreak, if constructor argument is given, otherwise after 10 results
                         { Console.WriteLine(); }
                     }
                     else if (prime % divider == 0) //loop hasn't found a prime
