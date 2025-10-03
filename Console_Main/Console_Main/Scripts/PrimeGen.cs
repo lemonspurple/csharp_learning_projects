@@ -1,6 +1,4 @@
-using System.Net;
-
-public class PrimeGen
+class PrimeGen
 {
 
     public static void PrimeGenFunc(int row = 10)

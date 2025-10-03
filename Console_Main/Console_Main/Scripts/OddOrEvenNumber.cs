@@ -1,4 +1,5 @@
-public class OddOrEvenNumber{
+public class OddOrEvenNumber
+{
 
     public static void OddOrEven(int[] variables) //TODO Overloads :D
     {
@@ -10,7 +11,7 @@ public class OddOrEvenNumber{
                 System.Console.WriteLine(testedVariable);
             }
 
-                continue; //TODO: Does this make sense?
+            continue; //TODO: Does this make sense?
 
         }
     }

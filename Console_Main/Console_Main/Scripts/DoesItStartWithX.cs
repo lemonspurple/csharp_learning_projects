@@ -1,4 +1,5 @@
-public class DoesItStartWithX{
+public class DoesItStartWithX
+{
 
     public static void LoopThatDetectsIfSomethingStartsWithX(string[] inputWords, char valueToDetect) //TODO Overloads :D
     {
