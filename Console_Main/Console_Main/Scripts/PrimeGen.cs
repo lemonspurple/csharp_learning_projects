@@ -9,7 +9,7 @@ public class PrimeGen
         while (quit)
         {
             Console.WriteLine("How many prime numbers do you wanna print out?");
-            string primeCount = Console.ReadLine();
+            string? primeCount = Console.ReadLine();
             float loops; //number of loops
 
             bool success = float.TryParse(primeCount, out loops);

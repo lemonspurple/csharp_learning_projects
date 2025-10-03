@@ -1,6 +1,6 @@
 public class OddOrEvenNumber{
 
-    public static void OddOrEven(int[] variables)
+    public static void OddOrEven(int[] variables) //TODO Overloads :D
     {
         foreach (int number in variables)
         {
@@ -10,7 +10,7 @@ public class OddOrEvenNumber{
                 System.Console.WriteLine(testedVariable);
             }
 
-                continue;
+                continue; //TODO: Does this make sense?
 
         }
     }
