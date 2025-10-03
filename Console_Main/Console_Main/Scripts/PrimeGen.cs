@@ -3,49 +3,48 @@ using System.Net;
 public class PrimeGen
 {
 
-    public static void PrimeGeFunc()
+    public static void PrimeGenFunc(int row = 10)
     {
         bool quit = true;
         while (quit)
         {
             Console.WriteLine("How many prime numbers do you wanna print out?");
             string primeCount = Console.ReadLine();
-            int loops; //number of loops
+            float loops; //number of loops
 
-            bool success = int.TryParse(primeCount, out loops);
+            bool success = float.TryParse(primeCount, out loops);
             if (success)
             {
                 int prime = 2; // initial start number
-                               //int seperator; // inserts break, if 10 numbers are in a row
                 int divider = 2;
                 int counter = 0;
 
                 while (counter < loops)
 
-                    if (divider == prime)
+                    if (divider == prime) //prime found!
                     {
-                        Console.Write((prime)+"\t");
+                        Console.Write((prime) + "\t");
                         prime++;
                         divider = 2;
                         counter++;
-                        if (counter % 10 == 0)
+                        if (counter % row == 0)   // inserts break, if 10 numbers are in a row
                         { Console.WriteLine(); }
                     }
-                    else if (prime % divider == 0)
+                    else if (prime % divider == 0) //loop hasn't found a prime
                     {
                         prime++;
                         divider = 2;
                     }
-                    else
+                    else //advance divider
                     {
                         divider++;
                     }
                 Console.WriteLine();
-                
+
             }
             else
             {
-                Console.WriteLine("Input was not an integer.");
+                Console.WriteLine("Input was not a valid number.");
             }
         }
 
