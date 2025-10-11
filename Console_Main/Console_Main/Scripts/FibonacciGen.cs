@@ -53,7 +53,7 @@ class FibonacciGen
             }
         }
     }
-
+    //TODO: save results into a list and make statistics about which number comes up the most OR which first number is how often represented
 
 
 }
