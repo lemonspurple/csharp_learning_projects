@@ -10,10 +10,10 @@ class FibonacciGen
 
     }
 
-   private static int FibonacciGenInput()
+    private static int FibonacciGenInput()
     {
         bool success = false;
-        int FibonacciCounter=1;
+        int FibonacciCounter = 1;
         while (!success)
         {
             Console.WriteLine("How many Fibonacci Numbers would you like to calculate?");
@@ -40,14 +40,14 @@ class FibonacciGen
         double starter = 1;
         double result;
         double loopcounter = 0;
-        while(loopcounter != input)
+        while (loopcounter != input)
         {
             result = starter + holder;
             holder = starter;
             Console.Write((result) + "\t");
             starter = result;
             loopcounter++;
-            if(loopcounter%10==0)
+            if (loopcounter % 10 == 0)
             {
                 Console.WriteLine();
             }
