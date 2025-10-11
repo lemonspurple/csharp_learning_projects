@@ -11,11 +11,10 @@ class Program
                 int[] variables = { 2, 3, 4, 5, 1, 2, 6, 8, 9, 5, 43, 12 };
                 int test = 4;
         */
-        // PrimeGen.PrimeGenFunc(15);
-        
-        PrimeGen.PrimeGenFunc(15);
+         //PrimeGen.PrimeGenFunc(15);
 
-        Console.WriteLine("test".GetType());
+        FibonacciGen.FibonacciGenGenFunc();
+       // Console.WriteLine("test".GetType());
 
         // OddOrEvenNumber.OddOrEven(variables);
         // DoesItStartWithX.LoopThatDetectsIfSomethingStartsWithX(words2, 'a');

@@ -3,8 +3,8 @@ class PrimeGen
 
     public static void PrimeGenFunc(int row = 10)
     {
-        bool quit = true;
-        while (quit)
+        // bool quit = true; //TODO Quit function :D
+        while (true)
         {
             Console.WriteLine("How many prime numbers do you wanna print out?");
             string? primeCount = Console.ReadLine();
