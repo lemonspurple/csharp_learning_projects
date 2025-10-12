@@ -2,7 +2,7 @@
 class Program
 {
     static int loops = 0;
-
+    static bool isRunning = true;
     static void Main(string[] args)
     {
         /*
@@ -12,7 +12,24 @@ class Program
                 int[] variables = { 2, 3, 4, 5, 1, 2, 6, 8, 9, 5, 43, 12 };
                 int test = 4;
         */
-        PrimeCalculate();
+        while(isRunning){
+        Console.WriteLine("Do you wanna calculate Prime Numbers (1), Fibonacci Numbers (2) or quit (Q)?");
+        string decision = Console.ReadLine();
+        switch (decision)
+        {
+            case "1":
+            PrimeCalculate();
+                break;
+                            case "2":
+            FibonacciCalculate();
+                break;
+                                         case "Q":
+                isRunning = false; ;
+                break;
+            default:
+                break;
+        }
+}
 
         /*
         Which prime numbers are also fibbonaci?
