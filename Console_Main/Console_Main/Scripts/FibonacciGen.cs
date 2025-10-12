@@ -3,7 +3,6 @@ class FibonacciGen
     public static List<double> fibGenCacheList = new List<double>();
     public static void FibonacciGenGenFunc()
     {
-        Console.WriteLine("test");
         int input = FibonacciGenInput();
         CalculateFibonacci(input);
 
@@ -50,7 +49,6 @@ class FibonacciGen
 
         }
     }
-    //TODO: save results into a list and make statistics about which number comes up the most OR which first number is how often represented
 
 
 }
