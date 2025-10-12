@@ -1,6 +1,6 @@
 class FibonacciGen
 {
-    public static List<decimal> fibGenCacheList = new List<decimal>();
+    public static List<double> fibGenCacheList = new List<double>();
     public static void FibonacciGenGenFunc()
     {
         Console.WriteLine("test");
@@ -35,25 +35,19 @@ class FibonacciGen
 
     private static void CalculateFibonacci(int input)
     {
-        decimal holder = 0;
-        decimal starter = 1;
-        decimal result;
+        double holder = 0;
+        double starter = 1;
+        double  result;
         double loopcounter = 0;
         while (loopcounter != input)
         {
             result = starter + holder;
             holder = starter;
 
-            //Console.Write((result) + "\t");
             fibGenCacheList.Add(result);
             starter = result;
             loopcounter++;
-            /*
-            if (loopcounter % 10 == 0)
-            {
-                Console.WriteLine();
-            }
-            */
+
         }
     }
     //TODO: save results into a list and make statistics about which number comes up the most OR which first number is how often represented
