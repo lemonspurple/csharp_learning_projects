@@ -1,7 +1,6 @@
-
 class FibonacciGen
 {
-
+    public static List<double> fibGenCacheList = new List<double>();
     public static void FibonacciGenGenFunc()
     {
         Console.WriteLine("test");
@@ -44,13 +43,17 @@ class FibonacciGen
         {
             result = starter + holder;
             holder = starter;
-            Console.Write((result) + "\t");
+
+            //Console.Write((result) + "\t");
+            fibGenCacheList.Add(result);
             starter = result;
             loopcounter++;
+            /*
             if (loopcounter % 10 == 0)
             {
                 Console.WriteLine();
             }
+            */
         }
     }
     //TODO: save results into a list and make statistics about which number comes up the most OR which first number is how often represented

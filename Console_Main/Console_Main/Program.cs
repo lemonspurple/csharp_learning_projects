@@ -11,9 +11,19 @@ class Program
                 int[] variables = { 2, 3, 4, 5, 1, 2, 6, 8, 9, 5, 43, 12 };
                 int test = 4;
         */
-         //PrimeGen.PrimeGenFunc(15);
-
+        //PrimeGen.PrimeGenFunc(15);
+        int loops = 0;
         FibonacciGen.FibonacciGenGenFunc();
+        foreach (double result in FibonacciGen.fibGenCacheList)
+        {
+            Console.Write($"{result} \t");
+            loops++;
+            if (loops % 10 == 0)
+            {
+                Console.WriteLine();
+            }
+        }
+        NumberCounter.numberCounterFunc(FibonacciGen.fibGenCacheList);
        // Console.WriteLine("test".GetType());
 
         // OddOrEvenNumber.OddOrEven(variables);
