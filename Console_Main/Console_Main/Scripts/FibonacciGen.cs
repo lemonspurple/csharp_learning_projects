@@ -1,6 +1,6 @@
 class FibonacciGen
 {
-    public static List<double> fibGenCacheList = new List<double>();
+    public static List<decimal> fibGenCacheList = new List<decimal>();
     public static void FibonacciGenGenFunc()
     {
         Console.WriteLine("test");
@@ -35,9 +35,9 @@ class FibonacciGen
 
     private static void CalculateFibonacci(int input)
     {
-        double holder = 0;
-        double starter = 1;
-        double result;
+        decimal holder = 0;
+        decimal starter = 1;
+        decimal result;
         double loopcounter = 0;
         while (loopcounter != input)
         {
