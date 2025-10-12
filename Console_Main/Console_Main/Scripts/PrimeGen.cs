@@ -1,5 +1,6 @@
 class PrimeGen
 {
+    public static List<int> primeList = new List<int>();
 
     public static void PrimeGenFunc(int row = 10)
     {
@@ -16,15 +17,18 @@ class PrimeGen
                 int prime = 2; // initial start number
                 int divider = 2;
                 int counter = 0;
+                
 
                 while (counter < loops)
-
+                
                     if (divider == prime) //prime found!
                     {
                         Console.Write((prime) + "\t");
+                        PrimeGen.primeList.Add(prime);
                         prime++;
                         divider = 2;
                         counter++;
+                        
                         // ADD PRIME TO LIST HERE
                         if (counter % row == 0)   // inserts linebreak, if constructor argument is given, otherwise after 10 results
                         { Console.WriteLine(); }
@@ -39,6 +43,7 @@ class PrimeGen
                         divider++;
                     }
                 Console.WriteLine();
+                break;
 
             }
             else

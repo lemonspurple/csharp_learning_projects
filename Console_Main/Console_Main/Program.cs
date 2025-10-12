@@ -5,7 +5,6 @@ class Program
     
     static void Main(string[] args)
     {
-        //PrimeGen f = new PrimeGen();
         /*
                 string[] words = { "aLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",
                 "eirmod atempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et",
@@ -13,20 +12,10 @@ class Program
                 int[] variables = { 2, 3, 4, 5, 1, 2, 6, 8, 9, 5, 43, 12 };
                 int test = 4;
         */
-        //PrimeGen.PrimeGenFunc(15);
-        
-        FibonacciGen.FibonacciGenGenFunc();
-        foreach (double result in FibonacciGen.fibGenCacheList)
-        {
-            Console.Write($"{result} \t");
-            loops++;
-            if (loops % 10 == 0)
-            {
-                Console.WriteLine();
-            }
-        }
-        NumberCounter.numberCounterFunc(FibonacciGen.fibGenCacheList);
-       // Console.WriteLine("test".GetType());
+        PrimeCalculate();
+
+        //FibonacciCalculate();
+        // Console.WriteLine("test".GetType());
 
         // OddOrEvenNumber.OddOrEven(variables);
         // DoesItStartWithX.LoopThatDetectsIfSomethingStartsWithX(words2, 'a');
@@ -61,5 +50,27 @@ class Program
 
 
 
+    }
+
+    private static void PrimeCalculate()
+    {
+        PrimeGen.PrimeGenFunc(15);
+        List<double> doubleList = PrimeGen.primeList.ConvertAll(x => (double)x);
+        NumberCounter.numberCounterFunc(doubleList);
+    }
+
+    private static void FibonacciCalculate()
+    {
+        FibonacciGen.FibonacciGenGenFunc();
+        foreach (double result in FibonacciGen.fibGenCacheList)
+        {
+            Console.Write($"{result} \t");
+            loops++;
+            if (loops % 10 == 0)
+            {
+                Console.WriteLine();
+            }
+        }
+        NumberCounter.numberCounterFunc(FibonacciGen.fibGenCacheList);
     }
 }
