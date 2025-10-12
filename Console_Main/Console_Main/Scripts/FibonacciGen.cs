@@ -15,7 +15,7 @@ class FibonacciGen
         while (!success)
         {
             Console.WriteLine("How many Fibonacci Numbers would you like to calculate?");
-            string input = Console.ReadLine();
+            string? input = Console.ReadLine();
 
 
             if (int.TryParse(input, out FibonacciCounter))
