@@ -1,6 +1,8 @@
 ﻿namespace Console_Main;
 class Program
 {
+    static int loops = 0;
+    
     static void Main(string[] args)
     {
         //PrimeGen f = new PrimeGen();
@@ -12,7 +14,7 @@ class Program
                 int test = 4;
         */
         //PrimeGen.PrimeGenFunc(15);
-        int loops = 0;
+        
         FibonacciGen.FibonacciGenGenFunc();
         foreach (double result in FibonacciGen.fibGenCacheList)
         {

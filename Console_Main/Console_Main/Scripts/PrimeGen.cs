@@ -25,6 +25,7 @@ class PrimeGen
                         prime++;
                         divider = 2;
                         counter++;
+                        // ADD PRIME TO LIST HERE
                         if (counter % row == 0)   // inserts linebreak, if constructor argument is given, otherwise after 10 results
                         { Console.WriteLine(); }
                     }
