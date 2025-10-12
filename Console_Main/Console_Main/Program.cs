@@ -2,7 +2,7 @@
 class Program
 {
     static int loops = 0;
-    
+
     static void Main(string[] args)
     {
         /*
@@ -13,6 +13,12 @@ class Program
                 int test = 4;
         */
         PrimeCalculate();
+
+        /*
+        Which prime numbers are also fibbonaci?
+        What is the distance between them?
+        What does Numbercounter show?
+        */
 
         //FibonacciCalculate();
         // Console.WriteLine("test".GetType());
