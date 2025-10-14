@@ -30,6 +30,9 @@ class Program
                 case "3":
                     Automata.automataFunc();
                     break;
+                case "4":
+                CellAutomata.linktest();
+                    break;
                 case "Q":
                     isRunning = false; 
                     break;
