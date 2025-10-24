@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/Console_Main/Console_Main/Console_Main.csproj": {}
+    "/home/lmpl/Desktop/bikini_atoll/csharp_learning_projects/Console_Main/Console_Main.csproj": {}
   },
   "projects": {
-    "/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/Console_Main/Console_Main/Console_Main.csproj": {
+    "/home/lmpl/Desktop/bikini_atoll/csharp_learning_projects/Console_Main/Console_Main.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/Console_Main/Console_Main/Console_Main.csproj",
+        "projectUniqueName": "/home/lmpl/Desktop/bikini_atoll/csharp_learning_projects/Console_Main/Console_Main.csproj",
         "projectName": "Console_Main",
-        "projectPath": "/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/Console_Main/Console_Main/Console_Main.csproj",
+        "projectPath": "/home/lmpl/Desktop/bikini_atoll/csharp_learning_projects/Console_Main/Console_Main.csproj",
         "packagesPath": "/home/lmpl/.nuget/packages/",
-        "outputPath": "/home/lmpl/Desktop/bikini_atoll/c#_learning_projects/Console_Main/Console_Main/obj/",
+        "outputPath": "/home/lmpl/Desktop/bikini_atoll/csharp_learning_projects/Console_Main/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/lmpl/.nuget/NuGet/NuGet.Config"
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.111/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
