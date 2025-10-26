@@ -6,7 +6,7 @@ cells.
  ########### ########### ########### */
 int boardWidth = 200;
 int boardHeight = 75;
-int activeCells = 2000; //TODO check if cells can receive active mutliple times
+int activeCells = 2400; //TODO check if cells can receive active mutliple times
 bool[,] board = new bool[boardWidth, boardHeight];
 var random = new Random();
 
