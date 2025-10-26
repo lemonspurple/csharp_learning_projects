@@ -125,7 +125,7 @@ while (true)
             drawBoard(x, y, board[x, y]);
         }
     }
-    Thread.Sleep(50);
+    Thread.Sleep(100);
 }
 
 
@@ -139,3 +139,7 @@ foreach(var item in board)
     Console.WriteLine(item.ToString());
 }
 */
+
+/**********************************************************************
+Tests
+**********************************************************************/
