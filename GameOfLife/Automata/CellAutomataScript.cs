@@ -23,6 +23,7 @@ public class CellAutomata
         private bool willBeAliveFunc(int livingNeighbors)
         {
             return true;
+            /// TODO CONWAY LIFE THINGY RULES
         }
     }
 }
