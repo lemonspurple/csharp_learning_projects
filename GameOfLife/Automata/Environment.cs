@@ -1,15 +1,18 @@
-public class Environment{
-    public int width;
-    public int height;
+public class Environment
+{
 
+    public void DrawEnvironment(int width, int height)
+    {
 
-    public void DrawEnvironment(width = 10, height = 10){
-        for (int i = 0; i >= width; i++){
-            Console.Write("X");
-            for (int i = 0; i >= height;  i++){
-                Console.WriteLine();
+        for (int n = 0; n <= height; n++)
+        {
+            for (int i = 0; i <= width; i++)
+            {
+                Console.Write("X");
             }
+            Console.WriteLine("Y");
         }
+
     }
-    
+
 }
