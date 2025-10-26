@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lmpl/Desktop/bikini_atoll/csharp_learning_projects/game_of_life/gameOfLife/gameOfLife.csproj",
+      "projectUniqueName": "/home/lmpl/Desktop/bikini_atoll/csharp_learning_projects/Game Of Life/gameOfLife/gameOfLife.csproj",
       "projectName": "gameOfLife",
-      "projectPath": "/home/lmpl/Desktop/bikini_atoll/csharp_learning_projects/game_of_life/gameOfLife/gameOfLife.csproj",
+      "projectPath": "/home/lmpl/Desktop/bikini_atoll/csharp_learning_projects/Game Of Life/gameOfLife/gameOfLife.csproj",
       "packagesPath": "/home/lmpl/.nuget/packages/",
-      "outputPath": "/home/lmpl/Desktop/bikini_atoll/csharp_learning_projects/game_of_life/gameOfLife/obj/",
+      "outputPath": "/home/lmpl/Desktop/bikini_atoll/csharp_learning_projects/Game Of Life/gameOfLife/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/lmpl/.nuget/NuGet/NuGet.Config"
