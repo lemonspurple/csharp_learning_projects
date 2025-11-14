@@ -8,16 +8,16 @@ class Program
     static void Main(string[] args)
     {
 
-        /*
+        
                 string[] words = { "aLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy",
                 "eirmod atempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et",
                 "accusam et justo duo dolores et ea rebum. Stet clita kasdire gubergren, no sea takimata sanctus est Lorem"};
                 int[] variables = { 2, 3, 4, 5, 1, 2, 6, 8, 9, 5, 43, 12 };
                 int test = 4;
-        */
+        
         while (isRunning)
         {
-            Console.WriteLine("Do you wanna calculate Prime Numbers (1), Fibonacci Numbers (2) or quit (Q)?");
+            Console.WriteLine("Do you wanna calculate Prime Numbers (1), Fibonacci Numbers (2), see Conways Game of Life or quit (Q)?");
             string? decision = Console.ReadLine();
             switch (decision)
             {
@@ -31,7 +31,7 @@ class Program
                     Automata.automataFunc();
                     break;
                 case "4":
-                CellAutomata.linktest();
+                //CellAutomata.linktest();
                     break;
                 case "Q":
                     isRunning = false; 

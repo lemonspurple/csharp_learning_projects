@@ -11,7 +11,6 @@ public class OddOrEvenNumber
                 System.Console.WriteLine(testedVariable);
             }
 
-            continue; //TODO: Does this make sense?
 
         }
     }
